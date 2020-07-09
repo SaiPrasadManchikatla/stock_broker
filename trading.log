@@ -1,0 +1,23 @@
+2020-07-05 21:08:23 DEBUG MasterStockBroker:31 - Stock strategy on price change : 5.0 , decision : BUY
+2020-07-05 21:08:23 DEBUG MasterStockBroker:34 - Stock strategy on price change : 22.0 , decision : SELL
+2020-07-06 10:12:47 DEBUG MasterStockBroker:68 - A person named Person A bought a stock: APPLE :: volume: 10
+2020-07-06 10:14:53 DEBUG MasterStockBroker:69 - A person named Person A bought a stock: APPLE :: volume: 10
+2020-07-06 10:14:53 DEBUG MasterStockBroker:46 - A stock APPLE of volume 10 was bought, remaining volume 99990
+2020-07-06 10:14:53 DEBUG MasterStockBroker:77 - A person named Person A sold a stock: APPLE :: volume: 1
+2020-07-06 10:14:53 DEBUG MasterStockBroker:51 - A stock APPLE of volume 1 was sold, remaining volume 99991
+2020-07-06 10:14:53 DEBUG MasterStockBroker:61 - There is a price update for stock: APPLE :: updated price: 122.0
+2020-07-06 10:14:53 DEBUG TradingStrategy:33 - Stock strategy on price change : 122.0 , decision : SELL
+2020-07-06 10:14:53 DEBUG ExecutionServiceImpl:33 - price Update: 122.0 :: decision: SELL :: selling stock APPLE of volume 10
+2020-07-06 10:14:53 DEBUG MasterStockBroker:61 - There is a price update for stock: APPLE :: updated price: 79.0
+2020-07-06 10:17:39 DEBUG MasterStockBroker:69 - A person named Person A bought a stock: APPLE :: volume: 10
+2020-07-06 10:17:39 DEBUG MasterStockBroker:46 - A stock APPLE of volume 10 was bought, remaining volume 99990
+2020-07-06 10:18:47 DEBUG MasterStockBroker:69 - A person named Person A bought a stock: APPLE :: volume: 10
+2020-07-06 10:18:47 DEBUG MasterStockBroker:46 - A stock APPLE of volume 10 was bought, remaining volume 99990
+2020-07-06 10:18:47 DEBUG MasterStockBroker:77 - A person named Person A sold a stock: APPLE :: volume: 1
+2020-07-06 10:18:47 DEBUG MasterStockBroker:51 - A stock APPLE of volume 1 was sold, remaining volume 99991
+2020-07-06 10:18:47 DEBUG MasterStockBroker:61 - There is a price update for stock: APPLE :: updated price: 122.0
+2020-07-06 10:18:47 DEBUG TradingStrategy:33 - Stock strategy on price change : 122.0 , decision : SELL
+2020-07-06 10:18:47 DEBUG ExecutionServiceImpl:33 - price Update: 122.0 :: decision: SELL :: selling stock APPLE of volume 10
+2020-07-06 10:18:47 DEBUG MasterStockBroker:61 - There is a price update for stock: APPLE :: updated price: 79.0
+2020-07-06 10:18:47 DEBUG TradingStrategy:30 - Stock strategy on price change : 79.0 , decision : BUY
+2020-07-06 10:18:47 DEBUG ExecutionServiceImpl:37 - price Update: 79.0 :: decision: BUY :: buying stock APPLE of volume 10
